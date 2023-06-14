@@ -1,0 +1,515 @@
+*{margin:0px; padding:0px; border: 0px;}
+/*{border:1px solid #ff0000;}*/
+
+@font-face {
+    font-family: 'Romanesco';
+    src: url('fonts/Romanesco-Regular.ttf') format('truetype'); 
+  }
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype'); 
+  }
+
+header{ 
+    height: 70px;
+    background:#A3A656 ;
+    font-family: "Inter", sans-serif;
+    
+    
+}
+
+.header{
+
+    clear:both;
+    text-align:left;
+    color: black;
+    float: left;
+    font-weight: 500;
+    font-size: 16px;
+    
+    
+  
+}
+
+.header ul{
+    list-style-type: none;
+    margin-left: 60px;
+    margin-top: 23px;
+      
+}
+
+.header ul li{
+    display: inline-block;
+    margin-inline: 10px;
+   
+    
+}
+
+.header ul li:hover{
+    color: #FFFF00;
+}
+
+/**/    
+
+.Cuenta{
+    height: 70px;
+    
+    display:flex;
+    align-items: center;
+    float: right;
+    
+}
+
+#Flecha{
+
+    margin-inline: 10px;
+    
+}
+
+#Bandera{
+    
+    margin-left: 10px;
+    
+    
+}
+
+#Espaniol{
+    
+    margin-inline: 5px;
+    
+}
+
+#MiCuenta{
+
+    margin-left: 5px;
+    margin-right: 40px;
+    
+}
+
+#CaraUsuario{
+
+    
+    margin-inline: 5px;
+    
+}
+
+/*Section*/
+
+
+.Principal {
+   
+    overflow: hidden;
+    position: relative;
+  }
+  
+.Principal img {
+    display: block;
+    width: 100%; 
+    height: auto; 
+}
+
+.overlay{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay p {
+    position: absolute;
+    top: 20%;
+    left: 14%;
+    
+    color: #000000;
+    font-size: 96px;
+    font-style: normal;
+    font-family: "Romanesco", sans-serif;
+    z-index: 1;
+}
+
+.overlay h2{
+    position: absolute;
+    top: 40%;
+    left: 13%;
+    
+    color: #000000;
+    font-size: 32px;
+    font-style: normal;
+    font-family: "Inter", sans-serif ;
+    z-index: 1;
+ }
+
+ /**/
+
+ .Formulario{
+
+    background-color: #F2F6F6;
+    
+ }
+
+ #Reserva{
+    /*position: absolute;*/
+    display: flex;
+    align-items: center;
+    margin-left: 350px;
+    height: 100px;
+    font-family: "Inter", sans-serif;
+   
+ }
+
+ #B{
+    margin-left: 40px;
+ }
+
+ /**/
+
+ /* Carta */
+
+ .Pagina2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+
+ }
+
+    /*Carta 1*/
+    .card{
+        width: 315px; 
+        border: 1px none #888;
+    
+        }
+
+    .titulo1{
+
+        height: 70px;
+        background-color: #A3A656;
+        border-radius: 15px 15px 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    .card h5{
+        font-size: 32px;
+        font-family: "Inter",sans-serif;
+        font-weight:600;
+        color: #FFFFFF
+    }
+
+    .card p{
+        margin-top: 10px;
+        font-size: 14px;
+        font-family: "Inter",sans-serif;
+    }
+
+    .card p:nth-child(1){
+        margin-left: 10px;
+        font-size: 20px;
+        font-family: "Inter",sans-serif;
+    }
+
+
+    .imagen-pie{
+        width: 315px;  
+        height: 300px;
+    }
+    .card img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
+
+    #Money{
+        font-weight: bold;
+    }
+
+    .card-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 13px;
+    }
+
+    .add-button a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #A3A656;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        font-size: 16px;
+        font-family: "Inter",sans-serif;
+        border-radius: 35px 35px 35px 35px;
+    }
+
+    .add-button a:hover{
+        background-color: #384001;
+    }
+
+    /*Carta 2*/
+    .card2{
+        width: 315px;   
+        border: 1px none #888;
+        margin-left: 134px;
+        margin-right: 134px;
+       
+        }
+
+    .titulo2{
+
+        height: 70px;
+        background-color: #A3A656;
+        border-radius: 15px 15px 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    .card2 h5{
+        font-size: 32px;
+        font-family: "Inter",sans-serif;
+        font-weight:600;
+        color: #FFFFFF
+    }
+
+    .card2 p{
+        margin-top: 10px;
+        font-size: 14px;
+        font-family: "Inter",sans-serif;
+    }
+
+    .card2 p:nth-child(1){
+        margin-left: 10px;
+        font-size: 20px;
+        font-family: "Inter",sans-serif;
+    }
+
+    .imagen-relajante{
+        width: 315px; 
+        height: 300px;
+    }
+    .card2 img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
+
+     /*Carta 3*/
+     .card3{
+        width: 315px;  
+        border: 1px none #888;
+        }
+
+    .titulo3{
+
+        height: 70px;
+        background-color: #A3A656;
+        border-radius: 15px 15px 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    .card3 h5{
+        font-size: 32px;
+        font-family: "Inter",sans-serif;
+        font-weight:600;
+        color: #FFFFFF
+    }
+
+    .card3 p{
+        margin-top: 10px;
+        font-size: 14px;
+        font-family: "Inter",sans-serif;
+    }
+
+    .card3 p:nth-child(1){
+        margin-left: 10px;
+        font-size: 20px;
+        font-family: "Inter",sans-serif;
+    }
+
+    .imagen-bambu{
+
+        width: 315px; 
+        height: 300px;
+    }
+    .card3 img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
+
+/*Section Pagina3*/
+
+.Pagina3{
+    height: 770px;
+    background-color: #F2F6F6;
+    overflow: hidden;
+}
+
+.Margen h2{
+    padding-top: 40px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+   
+}
+
+.contenedorcard{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+
+.card4,
+.card5,
+.card6{
+    float:left;
+    margin-inline: 70px;
+    
+}
+
+
+
+.circle1,
+.circle2,
+.circle3{
+  height: 243px;
+  width: 243px;  
+  margin-left: 30px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 0 0 10px #384001;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Paquete{
+    text-align: center;
+    margin-top: 3px;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+}
+
+
+.add-button2{
+    
+    cursor: pointer;
+    height: 35px;
+    width: 233px;
+    margin-top: 30px;
+    border-radius: 35px 35px 35px 35px;
+    background-color: #A3A656;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    font-weight:600;
+
+    
+    
+}
+
+.add-button2 a{
+    text-decoration: none;
+    color: white;
+}
+.add-button2:hover{
+    background-color: #384001;
+    
+}
+
+.context1,
+.context2,
+.context3{
+
+    margin-top: 30px;
+    margin-left:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+/*PieDePagina*/
+
+.PiePagina{
+    height: 97px;
+    background-color: #384001;
+    clear:both;
+    text-align:left;
+    color: #A3A656;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.PiePagina ul{
+    list-style-type: none;
+    margin-left: 70px;
+    display: flex;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    
+      
+}
+
+.PiePagina ul li{
+    display: inline-block;
+    margin-inline: 30px;
+}
+
+.PiePagina ul li:hover{
+    color: #FFFF00;
+}
+
+.BordeInferior{
+    
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+
+}
+
+
+.facebook{
+    margin-inline: 20px;
+}
+
+.twitter{
+    margin-inline: 20px;
+}
+
+.youtube{
+    margin-inline: 20px;
+}
+
+
+
+
+  
+
+ 
+
+  
+
